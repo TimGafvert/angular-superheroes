@@ -17,13 +17,6 @@ angular
   ])
 
 
-// function superHeroPhonebookControllerFunction () {
-//   this.hero = superHeroPhonebookData
-//   this.addHero = function(){
-//   let hero = {name: this.newHero}
-//   this.hero.push(hero)
-// };
-// }
 
 function superHeroPhonebookControllerFunction () {
   this.heroes = superHeroPhonebookData

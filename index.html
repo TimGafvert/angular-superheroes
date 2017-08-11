@@ -9,9 +9,9 @@
 </head>
 <body ng-controller='heroPhoneBookController as vm'>
   <h2>Super Hero Phone Book</h2>
-  <!-- <div ng-repeat="hero in vm.heroes">
-    <p>{{$index + 1}}. {{hero.name}} - {{hero.phoneNumber}}</p>
-  </div> -->
+  <div ng-repeat="hero in vm.heroes">
+    <p>{{$index + 1}}. {{hero.name}} - {{hero.phoneNumber}}- {{hero.affiliation}}</p>
+  </div>
   <div>
   <input type="text">
   <button ng-click="vm.addHero()">Add Hero</button>
